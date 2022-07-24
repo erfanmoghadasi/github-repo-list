@@ -1,0 +1,27 @@
+.mainContainer{
+    position: relative;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.searchBox{
+    position: absolute;
+    left: 50%;
+    top: -30%;
+    transform: translateX(-50%);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 2rem;
+    width: 15rem;
+}
+
+.starsTable{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

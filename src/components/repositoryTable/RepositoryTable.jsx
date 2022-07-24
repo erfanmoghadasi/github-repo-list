@@ -11,12 +11,15 @@ const columns = [
     type: "number",
     width: 90,
   },
+  {
+    field: "update", headerName: "Last Update", width: 200
+  }
 ];
 
 
 export default function DataTable({rows}) {
   return (
-    <div style={{ height: 400, width: "100%" }}>
+    <div style={{ height: 400, width: "50%"  }}>
       <DataGrid
         rows={rows}
         columns={columns}
